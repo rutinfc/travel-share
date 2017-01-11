@@ -7,25 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		819080BD1E52CAFC00C18880 /* TSScrapInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819080BC1E52CAFC00C18880 /* TSScrapInfo.swift */; };
+		819080BF1E52E35500C18880 /* TSScrapTreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819080BE1E52E35500C18880 /* TSScrapTreeViewController.swift */; };
+		819080C11E52E8BC00C18880 /* TSScrapNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819080C01E52E8BC00C18880 /* TSScrapNavigator.swift */; };
+		819080C31E52F6D700C18880 /* TSScrapNaviCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819080C21E52F6D700C18880 /* TSScrapNaviCell.swift */; };
 		81F65E3B1E24C299007901E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F65E3A1E24C299007901E1 /* AppDelegate.swift */; };
-		81F65E3D1E24C299007901E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F65E3C1E24C299007901E1 /* ViewController.swift */; };
 		81F65E401E24C299007901E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81F65E3E1E24C299007901E1 /* Main.storyboard */; };
 		81F65E431E24C299007901E1 /* TravelShare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 81F65E411E24C299007901E1 /* TravelShare.xcdatamodeld */; };
 		81F65E451E24C299007901E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81F65E441E24C299007901E1 /* Assets.xcassets */; };
 		81F65E481E24C299007901E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81F65E461E24C299007901E1 /* LaunchScreen.storyboard */; };
 		81F65E551E24C7B2007901E1 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81F65E541E24C7B2007901E1 /* Media.xcassets */; };
+		81F65E581E24D873007901E1 /* TSTaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F65E571E24D873007901E1 /* TSTaskCell.swift */; };
+		81F65E5B1E24DA72007901E1 /* TSCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F65E5A1E24DA72007901E1 /* TSCustomView.swift */; };
+		81F65E5E1E25CCA2007901E1 /* TSCreatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F65E5D1E25CCA2007901E1 /* TSCreatorViewController.swift */; };
+		81F65E611E25CCF1007901E1 /* TSScrapImportHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F65E601E25CCF1007901E1 /* TSScrapImportHelper.swift */; };
+		81F65E631E25CD3E007901E1 /* TSTaskInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F65E621E25CD3E007901E1 /* TSTaskInfo.swift */; };
+		81F65E651E2600EC007901E1 /* TSCustomViewes.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81F65E641E2600EC007901E1 /* TSCustomViewes.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		819080BC1E52CAFC00C18880 /* TSScrapInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSScrapInfo.swift; sourceTree = "<group>"; };
+		819080BE1E52E35500C18880 /* TSScrapTreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSScrapTreeViewController.swift; sourceTree = "<group>"; };
+		819080C01E52E8BC00C18880 /* TSScrapNavigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSScrapNavigator.swift; sourceTree = "<group>"; };
+		819080C21E52F6D700C18880 /* TSScrapNaviCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSScrapNaviCell.swift; sourceTree = "<group>"; };
 		81F65E371E24C299007901E1 /* TravelShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81F65E3A1E24C299007901E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		81F65E3C1E24C299007901E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		81F65E3F1E24C299007901E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		81F65E421E24C299007901E1 /* TravelShare.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TravelShare.xcdatamodel; sourceTree = "<group>"; };
 		81F65E441E24C299007901E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81F65E471E24C299007901E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81F65E491E24C299007901E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81F65E541E24C7B2007901E1 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		81F65E571E24D873007901E1 /* TSTaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSTaskCell.swift; sourceTree = "<group>"; };
+		81F65E5A1E24DA72007901E1 /* TSCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSCustomView.swift; sourceTree = "<group>"; };
+		81F65E5D1E25CCA2007901E1 /* TSCreatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSCreatorViewController.swift; sourceTree = "<group>"; };
+		81F65E601E25CCF1007901E1 /* TSScrapImportHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSScrapImportHelper.swift; sourceTree = "<group>"; };
+		81F65E621E25CD3E007901E1 /* TSTaskInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSTaskInfo.swift; sourceTree = "<group>"; };
+		81F65E641E2600EC007901E1 /* TSCustomViewes.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSCustomViewes.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +77,12 @@
 		81F65E391E24C299007901E1 /* TravelShare */ = {
 			isa = PBXGroup;
 			children = (
+				81F65E5F1E25CCE1007901E1 /* Helper */,
+				81F65E5C1E25CCA2007901E1 /* ViewController */,
+				81F65E591E24DA68007901E1 /* CustomView */,
+				81F65E561E24D857007901E1 /* Cells */,
 				81F65E531E24C79F007901E1 /* Resources */,
 				81F65E3A1E24C299007901E1 /* AppDelegate.swift */,
-				81F65E3C1E24C299007901E1 /* ViewController.swift */,
 				81F65E3E1E24C299007901E1 /* Main.storyboard */,
 				81F65E441E24C299007901E1 /* Assets.xcassets */,
 				81F65E461E24C299007901E1 /* LaunchScreen.storyboard */,
@@ -84,6 +105,44 @@
 				81F65E541E24C7B2007901E1 /* Media.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		81F65E561E24D857007901E1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				81F65E571E24D873007901E1 /* TSTaskCell.swift */,
+				819080C21E52F6D700C18880 /* TSScrapNaviCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		81F65E591E24DA68007901E1 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				81F65E5A1E24DA72007901E1 /* TSCustomView.swift */,
+				81F65E641E2600EC007901E1 /* TSCustomViewes.xib */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		81F65E5C1E25CCA2007901E1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				81F65E5D1E25CCA2007901E1 /* TSCreatorViewController.swift */,
+				819080BE1E52E35500C18880 /* TSScrapTreeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		81F65E5F1E25CCE1007901E1 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				81F65E601E25CCF1007901E1 /* TSScrapImportHelper.swift */,
+				81F65E621E25CD3E007901E1 /* TSTaskInfo.swift */,
+				819080BC1E52CAFC00C18880 /* TSScrapInfo.swift */,
+				819080C01E52E8BC00C18880 /* TSScrapNavigator.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +207,7 @@
 				81F65E481E24C299007901E1 /* LaunchScreen.storyboard in Resources */,
 				81F65E451E24C299007901E1 /* Assets.xcassets in Resources */,
 				81F65E551E24C7B2007901E1 /* Media.xcassets in Resources */,
+				81F65E651E2600EC007901E1 /* TSCustomViewes.xib in Resources */,
 				81F65E401E24C299007901E1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,8 +219,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81F65E3D1E24C299007901E1 /* ViewController.swift in Sources */,
+				819080BF1E52E35500C18880 /* TSScrapTreeViewController.swift in Sources */,
+				819080BD1E52CAFC00C18880 /* TSScrapInfo.swift in Sources */,
+				81F65E631E25CD3E007901E1 /* TSTaskInfo.swift in Sources */,
+				81F65E5B1E24DA72007901E1 /* TSCustomView.swift in Sources */,
+				819080C31E52F6D700C18880 /* TSScrapNaviCell.swift in Sources */,
+				81F65E611E25CCF1007901E1 /* TSScrapImportHelper.swift in Sources */,
+				81F65E581E24D873007901E1 /* TSTaskCell.swift in Sources */,
 				81F65E3B1E24C299007901E1 /* AppDelegate.swift in Sources */,
+				81F65E5E1E25CCA2007901E1 /* TSCreatorViewController.swift in Sources */,
+				819080C11E52E8BC00C18880 /* TSScrapNavigator.swift in Sources */,
 				81F65E431E24C299007901E1 /* TravelShare.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

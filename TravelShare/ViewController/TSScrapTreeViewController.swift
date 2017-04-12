@@ -20,6 +20,7 @@ class TSScrapTreeViewController : UIViewController, UICollectionViewDataSource, 
     
     deinit {
         
+        
         NotificationCenter.default.removeObserver(self)
     }
     
